@@ -2,4 +2,4 @@
 Export/Compile .lua files to .exe files.
 Tested with https://github.com/rjpcomputing/luaforwindows/releases
 
-You may or may not need to install dependencies.
+You don't need lua to convert, but you do need lua to run the converted files.
