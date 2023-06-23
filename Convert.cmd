@@ -1,8 +1,10 @@
-:q:
 @echo off
+:q
 echo Converting...
 glue.exe srlua.exe input.lua output.exe
-echo Finished. You may close this window now.
-echo Press any key to re-convert . . .
-pause > nul
-goto q
+echo Finished. What do you want to do?
+echo 1) Convert again
+echo 2) Exit
+set /p opt=
+if %opt%==1 goto q
+if %opt%==2 exit
