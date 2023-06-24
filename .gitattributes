@@ -1,1 +1,2 @@
 glue.exe linguist-language=C linguist-detectable
+Compile.cmd linguist-language=Batchfile linguist-detectable
