@@ -1,4 +1,8 @@
 @echo off
+title Compiler
+if %errorLevel% == 0 (
+  cd /d "%~dp0"
+)
 :q
 echo Compiling...
 glue.exe srlua.exe input.lua output.exe
