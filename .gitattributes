@@ -1,1 +1,2 @@
 input.lua -linguist-detectable
+lua51.dll linguist-language=C
