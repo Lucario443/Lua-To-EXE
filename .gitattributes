@@ -1,0 +1,5 @@
+input.lua -linguist-detectable
+lua51.dll linguist-language=C
+vcruntime140d.dll linguist-language=C++
+srlua.exe linguist-language=C
+glue.exe linguist-language=C
